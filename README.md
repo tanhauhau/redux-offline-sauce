@@ -1,6 +1,7 @@
 # redux-offline-sauce
 
 [![npm version](https://badge.fury.io/js/redux-offline-sauce.svg)](https://badge.fury.io/js/redux-offline-sauce)
+[![Build Status](https://travis-ci.org/tanhauhau/redux-offline-sauce.svg?branch=master)](https://travis-ci.org/tanhauhau/redux-offline-sauce)
 
 > Some aesthetic toppings for your Redux Offline meal.
 
