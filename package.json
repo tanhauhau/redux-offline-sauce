@@ -41,7 +41,7 @@
     "eslint-plugin-flowtype": "^2.30.4",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jest": "^19.0.1",
-    "flow": "^0.2.3",
+    "flow-bin": "^0.44.0",
     "jest": "^19.0.2",
     "pre-commit": "^1.2.2"
   },
