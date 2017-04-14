@@ -37,7 +37,7 @@ function createTypes(config, options): { [string]: string } {
   )(config);
 }
 
-function transformAction(action: thunk | dict): { action: thunk, meta?: Array<string|dict> } {
+function transformAction(action: thunk | dict): { action: thunk, meta?: Array<string | dict> } {
   if (typeof action === 'object') {
     return {
       action: noop,
@@ -49,7 +49,7 @@ function transformAction(action: thunk | dict): { action: thunk, meta?: Array<st
   return { action: noop };
 }
 
-function getMeta(metaArray: ?Array<string|dict> = [], context: dict) : dict {
+function getMeta(metaArray: ?Array<string | dict> = [], context: dict): dict {
   return R.pipe(
     R.converge(R.concat, [
       R.pipe(
@@ -62,7 +62,7 @@ function getMeta(metaArray: ?Array<string|dict> = [], context: dict) : dict {
   )(metaArray);
 }
 
-function addPayloadToEffectBody(effect, payload) : ?dict {
+function addPayloadToEffectBody(effect, payload): ?dict {
   if (typeof effect === 'object') {
     const { body, ...rest } = effect;
 
